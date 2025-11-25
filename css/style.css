@@ -65,3 +65,41 @@ p a{
     font-weight: 1000;
     border-bottom: 1px solid #fff;
 }
+
+a:active{
+    color: #00fff7;
+}
+
+/*
+    a:link      a normal, unvisited link.
+    a:visited   has been visited.
+    a:hover     activated by mouse.
+    a:focus     activated with the keyboard.
+    a:active    is being clicked
+*/
+/*
+    list-style-type: square
+    list-style-imaeg: square url('icon.gif')
+    list-style-position
+    list-style
+*/
+/*
+    Operators can bu used to find those attributes values you are looking for.
+     - match the beginning exactly:
+        a [href^='http://umich']
+     - match the end exactly:
+        img[src$='.png']
+     - wildcard:
+        a [href*='umich']
+*/
+/*
+    body{
+        background: lightblue url("shadows.gif") 100% no-repeat;
+    }
+*/
+/*
+    background-color: black;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+*/
